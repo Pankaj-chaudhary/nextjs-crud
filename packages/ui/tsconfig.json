@@ -1,0 +1,27 @@
+{
+  "extends": "tsconfig/react-library.json",
+  "include": [
+    "."
+  ],
+  "compilerOptions": {
+    "jsx": "preserve",
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "baseUrl": ".",
+    "paths": {
+      "@/*": [
+        "src/*",
+        "@/*",
+        "assets/*"
+      ]
+    }
+  },
+  "exclude": [
+    "dist",
+    "build",
+    "node_modules"
+  ]
+}

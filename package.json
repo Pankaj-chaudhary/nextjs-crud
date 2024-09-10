@@ -1,0 +1,30 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "lint": "turbo run lint",
+    "lint:fix": "turbo run lint:fix",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "prepare": "husky"
+  },
+  "devDependencies": {
+    "@ianvs/prettier-plugin-sort-imports": "^4.1.1",
+    "@turbo/gen": "^1.9.7",
+    "eslint": "^7.32.0",
+    "eslint-config-custom": "workspace:*",
+    "eslint-plugin-prettier": "^5.1.3",
+    "husky": "^9.0.6",
+    "prettier": "^3.0.0",
+    "prettier-plugin-tailwindcss": "^0.5.1",
+    "turbo": "latest",
+    "tailwind-config": "workspace:*"
+  },
+  "packageManager": "pnpm@8.6.10",
+  "name": "codeforstartup",
+  "description": "Code for Startup: Blogging for Developers",
+  "version": "1.0.0",
+  "main": ".eslintrc.js",
+  "author": "",
+  "license": "ISC"
+}
